@@ -117,7 +117,7 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 |-- README.md
 
 **Nota sobre nombres de imágenes:**
-Por cuestiones de brevedad, algunos nombres de imágenes en el acapite Estructura del Proyecto pueden estar incompletos. Se recomienda dirigirse a la carpeta [images](/landing-page/src/images/) o ver item ## Capturas de Pantalla para obtener detalles específicos sobre cada imagen.
+Por cuestiones de brevedad, algunos nombres de imágenes en el acapite Estructura del Proyecto pueden estar incompletos. Se recomienda dirigirse a la carpeta [images](/src/images/) o ver item ## Capturas de Pantalla para obtener detalles específicos sobre cada imagen.
 
 ## Fuentes Utilizadas
 
@@ -133,27 +133,27 @@ En este proyecto, se han utilizado las siguientes fuentes:
 ## Capturas de Pantalla
 
 ### Capturas Landing Page Full Screen
-1. ![Captura 1](/landing-page/src/images/capturas/full_screen-landing.optimizado.svg)
+1. ![Captura 1](/src/images/capturas/full_screen-landing.optimizado.svg)
 
 ### Capturas Desktop y Mobile
 
 | N° | Descripción | Enlace |
 
-| 1 | 320px Full Pantalla Nokia Lumia+520 | ![Enlace](/landing-page/src/images/testing/320_nokia_lumia+520..optimizado.svg) |
-| 2 | 375px Muestra Formulario Modal en ese ancho IPhone Expensive Portrait | ![Enlace](/landing-page/src/images/testing/375_form-375.optimizado.svg) |
-| 3 | 375px IPhone Expensive Portrait | ![Enlace](/landing-page/src/images/testing/375-responsinator.optimizado.svg) |
-| 4 | 640px Full Pantalla Microsoft Lumia 550 | ![Enlace](/landing-page/src/images/testing/640_microsoft_lumia_550.optimizado.svg) |
-| 5 | 684px Iphone Expensive Landscape | ![Enlace](/landing-page/src/images/testing/684-responsinator..optimizado.svg) |
-| 6 | 734px Iphone Expensive Landscape | ![Enlace](/landing-page/src/images/testing/734-responsinator.optimizado.svg) |
-| 7 | 992px Full Pantalla con Formulrio Modal | ![Enlace](/landing-page/src/images/testing/992_full-form.optimizado.svg) |
-| 8 | 1024 x 768px Desktop Laptop | ![Enlace](/landing-page/src/images/testing/1024_desktop_laptop_1024x768.optimizado.svg) |
-| 9 | 1024 x 1366px Laptop N° 1 | ![Enlace](/landing-page/src/images/testing/1024_laptop1_1024x1366.optimizado.svg) |
-| 10 | 1024 x 1366px Laptop N° 2 | ![Enlace](/landing-page/src/images/testing/1024_laptop2_1024x1366..optimizado.svg) |
-| 11 | 1024 x 1366px Laptop N° 3 | ![Enlace](/landing-page/src/images/testing/1024_laptop3_1024x1366.optimizado.svg) |
-| 12 | 1024 x 1366px Laptop N° 4 | ![Enlace](/landing-page/src/images/testing/1024_laptop4_1024x1366.optimizado.svg) |
-| 13 | 1024 x 1366px Laptop N° 5 | ![Enlace](/landing-page/src/images/testing/1024_laptop5_1024x1366..optimizado.svg) |
-| 14 | 1201px Formulario Modal en ese ancho de pantalla | ![Enlace](/landing-page/src/images/testing/1201_form-1201.optimizado.svg) |
-| 15 | 1280x800px Desktop Laptop | ![Enlace](/landing-page/src/images/testing/1280_desktop_laptop_1280x800.optimizado.svg) |
+| 1 | 320px Full Pantalla Nokia Lumia+520 | ![Enlace](/src/images/testing/320_nokia_lumia+520..optimizado.svg) |
+| 2 | 375px Muestra Formulario Modal en ese ancho IPhone Expensive Portrait | ![Enlace](/src/images/testing/375_form-375.optimizado.svg) |
+| 3 | 375px IPhone Expensive Portrait | ![Enlace](/src/images/testing/375-responsinator.optimizado.svg) |
+| 4 | 640px Full Pantalla Microsoft Lumia 550 | ![Enlace](/src/images/testing/640_microsoft_lumia_550.optimizado.svg) |
+| 5 | 684px Iphone Expensive Landscape | ![Enlace](/src/images/testing/684-responsinator..optimizado.svg) |
+| 6 | 734px Iphone Expensive Landscape | ![Enlace](/src/images/testing/734-responsinator.optimizado.svg) |
+| 7 | 992px Full Pantalla con Formulrio Modal | ![Enlace](/src/images/testing/992_full-form.optimizado.svg) |
+| 8 | 1024 x 768px Desktop Laptop | ![Enlace](/src/images/testing/1024_desktop_laptop_1024x768.optimizado.svg) |
+| 9 | 1024 x 1366px Laptop N° 1 | ![Enlace](/src/images/testing/1024_laptop1_1024x1366.optimizado.svg) |
+| 10 | 1024 x 1366px Laptop N° 2 | ![Enlace](/src/images/testing/1024_laptop2_1024x1366..optimizado.svg) |
+| 11 | 1024 x 1366px Laptop N° 3 | ![Enlace](/src/images/testing/1024_laptop3_1024x1366.optimizado.svg) |
+| 12 | 1024 x 1366px Laptop N° 4 | ![Enlace](/src/images/testing/1024_laptop4_1024x1366.optimizado.svg) |
+| 13 | 1024 x 1366px Laptop N° 5 | ![Enlace](/src/images/testing/1024_laptop5_1024x1366..optimizado.svg) |
+| 14 | 1201px Formulario Modal en ese ancho de pantalla | ![Enlace](/src/images/testing/1201_form-1201.optimizado.svg) |
+| 15 | 1280x800px Desktop Laptop | ![Enlace](/src/images/testing/1280_desktop_laptop_1280x800.optimizado.svg) |
 
 ### Herramientas Test Mobile
 - **Responsinator:** Utilizado para simular la visualización en varios dispositivos móviles.
