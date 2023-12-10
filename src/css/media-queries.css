@@ -1,0 +1,177 @@
+/* ------------------------------
+   SECCIÓN 1: HEADER
+------------------------------ */
+
+/* Estilos base para dispositivos más pequeños */
+@media (min-width: 320px) and (max-width: 576px) {
+    nav#navbar{
+        padding: 0!important;
+    }
+
+    img.logo {
+        max-height: 50px!important;
+        width: 50px!important;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button.banner {
+        margin-right: 0!important; 
+    }
+
+
+    .modal-dialog {
+        width: 100%;
+    }
+
+    .modal-lg .modal-content {
+        width: 97%!important;
+        height: auto;
+        
+    }
+
+    .modal-body {
+        max-height: 100vh;
+        
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    nav#navbar{
+        padding:0!important;
+    
+    }
+
+    img.logo {
+        max-height:75px!important;
+        width:75px!important;
+    }
+
+    .banner{
+        height: 40px!important;
+        padding-top:0.6rem!important;
+        
+        
+    }
+
+    button.banner{
+        font-size:20px!important;
+        margin-bottom: 0.2rem!important;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    nav#navbar{
+        padding: 5px!important;
+        
+    }
+
+    img.logo {
+        max-height: 90px!important;
+        width: 90px!important;
+    }
+
+    .banner{
+        height: 40px!important;
+        padding-top:0.6rem!important;
+        
+    }
+
+    button.banner{
+        font-size:20px!important;
+        margin-bottom: 0.2rem!important;
+    }
+
+   
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+   .bg {
+        background-image: url('/src/images/optimizadas/form-responsive.optimizado.svg')!important;
+    
+    }
+    
+}
+
+@media (min-width: 1201px){
+    .bg {
+         background-image: url('/src/images/optimizadas/form-descuento.optimizado.svg')!important;
+     
+     }
+     
+}
+/* ------------------------------
+   SECCIÓN 2: BENEFICIOS 
+------------------------------ */
+@media (min-width: 320px) and (max-width: 768px) {
+    h2.section-title{
+        padding-top: 30px!important;
+        
+    } 
+
+    .beneficios-contenido {
+        margin-bottom: 85px!important;
+       
+    } 
+
+
+    .icon-beneficio {
+        top: -30%!important;
+        left: 50%!important;
+        margin-bottom: 20px;
+        transform: translate(-50%, -50%)!important;
+       
+    }
+
+    .beneficios-especial h5, .beneficios-asesoria h5, .beneficios-horario h5, .beneficios-certificado h5{
+        padding-top: 10px!important;
+    }
+}
+/* ------------------------------
+   SECCIÓN 3: TEMARIO 
+------------------------------ */
+@media (min-width: 320px) and (max-width: 992px) {
+    .programa.temario-imagen {
+        background-image: none!important;
+        
+    }
+
+    .programa.temario-container{
+        width: 100%!important;
+        text-align: center!important;
+        margin: 0 auto!important; /* Centra horizontalmente usando márgenes automáticos */
+    }
+
+    .programa.temario-item {
+        padding: 30px 20px 30px 30px;
+    }
+
+    .programa.temario-numero{
+        left: -17px!important;
+    }
+}
+
+
+/* ------------------------------
+   SECCIÓN 4: TESTIMONIAL
+------------------------------ */
+/* Estilos para pantallas de 320px a 992px */
+@media (min-width: 320px) and (max-width: 992px) {
+    .circle {
+        height: 100%!important;
+        width: 100%!important;
+    }
+    
+    .img-container{
+        margin-bottom: 30px;
+    }
+   
+}
+
+

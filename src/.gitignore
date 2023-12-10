@@ -1,0 +1,5 @@
+# Ignorar la carpeta .vscode
+.vscode/
+
+# Ignorar el archivo settings.json en cualquier ubicación
+**/settings.json

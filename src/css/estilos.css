@@ -1,0 +1,30 @@
+body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900!important;
+}
+
+h2.section-title{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.divider{
+    height: 7px;
+    width: 90px;
+    margin: 16px auto;
+    background-color: rgba(1, 4, 64, 0.8) !important; 
+}
+
+
+/* Clases para padding */
+
+.ptop-4 { 
+    padding-top: 1.25rem; 
+
+}

@@ -1,0 +1,23 @@
+section#instructor{
+    background-color: rgba(48, 158, 156, 0.80)!important;
+}
+
+.img-instructor {
+    position: relative;
+    display: inline-block; /* Para que el contenedor abrace la imagen y el ícono */
+}
+
+.icon-instructor {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(1, 4, 64, 0.8) !important; 
+    color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.icon-instructor i {
+    font-size: 40px;
+}

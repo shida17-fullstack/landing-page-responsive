@@ -1,0 +1,15 @@
+#footer {
+    background-color: rgba(48, 158, 156, 0.99)!important;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer a.footer {
+    color: white; 
+    text-decoration: none;
+}
+
+p.footer{
+    font-size: 18px;
+}

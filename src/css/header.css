@@ -1,0 +1,130 @@
+/* ------------------------------
+   SECCIÓN 1: HEADER
+------------------------------ */
+/* Navbar-Logo-Scroll*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo {
+    max-height: 100px;
+    height: auto;
+    width: 100px;
+    transition: max-height 0.3s; /* Agrega transición al cambio de tamaño del logo */
+}
+
+nav#navbar {
+    transition: background-color 0.3s, padding 0.3s; /* Añade transiciones */
+    background-color: rgba(0, 0, 0, 0)!important;/* Transparente */
+    padding: 15px 0;
+}
+
+
+nav#navbar.scrolled {
+    background-color: rgba(48, 158, 156, 0.80) !important;
+    padding: 10px 0 ;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+nav#navbar.img.logo.scrolled  {
+    max-height: 100px !important;
+    transition: max-height 0.3s; /* Agrega transición al cambio de tamaño del logo al hacer scroll */
+}
+
+ 
+/* Banner*/
+.banner-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;  /* Alinea el contenido al final y a la derecha */
+    
+}
+
+
+.banner-container picture img {
+    height: auto;
+    width: 100vw!important; /* Ancho igual al ancho del contenedor */
+    margin: 0 auto; /* Centrar la imagen */
+    overflow: hidden!important;
+}
+
+
+.banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 50px;
+    text-align: center;
+    color: #fff; /* Color de texto boton */
+    overflow: hidden;
+}
+
+button.banner {
+    width: 100%;  /* Ancho relativo al contenedor padre */
+    max-width: 350px; /* Ancho máximo del botón */
+    font-size: 23px; /* Tamaño de la fuente */
+    font-weight: 600;
+    border-radius: 2px;
+    height:100%;
+    border: none;
+    background-color: rgb(255, 215, 0) !important;
+    letter-spacing: 5px; /* Espaciado entre letras */
+    margin-right:  1.5rem; /* Añade un margen para separar el botón del borde del banner */
+    margin-bottom: 0.3rem;
+    transition: all 0.3s ease;
+}
+
+button.banner:hover {
+    transform: translateY(-2px);
+}
+
+
+/* Modal*/
+.bg {
+   
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+/* Modal-body - Form */
+.modal-body {
+    overflow-y: auto; /* Permite el scroll si es necesario */
+}
+
+
+.contenido-modal {
+    text-align: center;
+}
+
+img.formlogo {
+    width: 80px;
+}
+
+h2.form {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button.form {
+    width: 100%;
+}
+

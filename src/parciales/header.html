@@ -1,0 +1,97 @@
+<!-- Logo Navbar -->
+<div class="header container-fluid">
+    <!-- bg-body-tertiary -->
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" id="navbar">
+        <div class="container logo-container">
+            <a class="navbar-brand" href="#">
+                <img src="/src/images/optimizadas/carolina-logo.optimizado.svg" class="logo img-fluid rounded-circle" alt="Logo">
+            </a>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="banner-container">
+        <picture>
+            <!-- Para pantallas de 767 píxeles o menos -->
+            <source media="(max-width: 767px)" srcset="/src/images/optimizadas/banner-responsive.optimizado.svg">
+            <!-- Para pantallas de 768 píxeles o más -->
+            <source media="(min-width: 768px)" srcset="/src/images/optimizadas/emprendedores.optimizado.svg">
+            <!-- Imagen predeterminada si no se cumplen las condiciones anteriores -->
+            <img src="/src/images/optimizadas/emprendedores.optimizado.svg" alt="Imagen banner" class="img-fluid rounded">
+        </picture>
+        <div class="banner ptop-4">
+            <!-- Botón que abre el modal -->
+            <button type="button" class="banner btn btn-primary btn-lg btn-sm" data-bs-toggle="modal" data-bs-target="#formularioModal">Inscribirme Ahora</button>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="formularioModal" tabindex="-1" aria-labelledby="formularioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-lg">
+            <!-- Puedes agregar el formulario directamente aquí o cargarlo mediante AJAX -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container form w-100 mt-5 rounded shadow">
+                        <div class="row align-items-stretch">
+                            <div class="col bg d-none d-lg-block col-md-5 col-lg-6 col-xl-6 rounded">
+                            </div>
+                            <div class="col">
+                                <div class="contenido-modal">
+                                    <img src="/src/images/optimizadas/logo_sada.optimizado.svg" alt="Logo Sada" class="formlogo img-fluid rounded-circle">
+                                </div>
+                                <h2 class="form">Inscríbete Ahora!</h2>
+                                <!-- Formulario de la columna derecha -->
+                                <form id="inscriptionForm">
+                                    <!-- Agrega aquí los campos del formulario -->
+                                    <div class="mb-3">
+                                        <label for="nombre" class="form-label">Nombre:</label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" autocomplete="given-name" required>
+                                        <div class="feedback" id="nombreFeedback"></div>
+                                        
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="apellido" class="form-label">Apellido:</label>
+                                        <input type="text" class="form-control" id="apellido" name="apellido" autocomplete="family-name" required >
+                                        <div class="feedback" id="apellidoFeedback"></div>
+                                    
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo electrónico:</label>
+                                        <input type="email" class="form-control" id="email" name="email" autocomplete="email" required >
+                                        <div class="feedback" id="emailFeedback"></div>
+                                        
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="telefono" class="form-label">Teléfono:</label>
+                                        <input type="tel" class="form-control" id="telefono" name="telefono" autocomplete="tel" required >
+                                        <div class="feedback" id="telefonoFeedback"></div>
+                                        
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="compania" class="form-label">Compañía:</label>
+                                        <input type="text" class="form-control" id="compania" name="compania" autocomplete="organization" required >
+                                        <div class="feedback" id="companiaFeedback"></div>
+                                        
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="checkbox" class="form-check-input" id="terms" required >
+                                        <label for="terms" class="form-check-label">Acepto los Terminos y condiciones</label>
+                                        <div class="feedback" id="termsFeedback"></div>
+                                    </div>
+                                    <div class="modal-footer custom btn">
+                                        <div class="custom-btn-container col-md-6">
+                                            <!-- Botón para enviar el formulario -->
+                                            <button type="submit" class="form btn btn-primary"  id="enviarFormulario" onclick="validarFormulario()">Inscribirse</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

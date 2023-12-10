@@ -1,0 +1,47 @@
+section#beneficios{
+    text-align: center;
+    
+}
+
+.beneficios-contenido {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.icon-beneficio {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(255, 215, 0)!important;
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: absolute;
+    top: -85px;
+    left: 50px;
+    transform: translateX(50%);
+  
+}
+
+.icon-beneficio i{
+    font-size: 40px;
+    
+}
+
+.beneficios-especial,.beneficios-asesoria, .beneficios-horario, .beneficios-certificado{
+    margin-top: 100px;
+}
+    
+.beneficios-especial h5, .beneficios-asesoria h5, .beneficios-horario h5, .beneficios-certificado h5{
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+p.beneficios{
+    padding-top:10px;
+    font-size: 16px;
+    color: #555;
+}
