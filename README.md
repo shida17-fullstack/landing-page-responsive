@@ -1,4 +1,4 @@
-# Proyecto Landing Page - Curso Digital de Finanzas para Emprendedores
+# Acerca de
 
 Este proyecto de Landing Page está diseñado para la venta de un Curso Digital de Finanzas dirigido a emprendedores. La página es completamente responsive y utiliza Bootstrap 5 para facilitar el desarrollo y mejorar la experiencia del usuario en diferentes dispositivos.
 
