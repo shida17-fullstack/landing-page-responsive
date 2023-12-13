@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start-main": "http-server -p 5500",
-    "start-cambios": "git checkout cambios-header-instructor && http-server -p 6000"
+    "start-cambios": "git checkout cambios-header-instructor && http-server -p 3500"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
