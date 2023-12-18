@@ -1,32 +1,55 @@
 <!-- Logo Navbar -->
 <div class="header container-fluid">
-    <!-- bg-body-tertiary -->
     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" id="navbar">
-        <div class="container logo-container">
+        <div class="container-fluid logo-container">
+            <div class="nav-name">
+                <span class="navbar-text ms-3">Carolina Sada</span>
+                <div class="divider-span"></div>
+            </div>
             <a class="navbar-brand" href="#">
                 <img src="/src/images/optimizadas/carolina-logo.optimizado.svg" class="logo img-fluid rounded-circle" alt="Logo">
             </a>
         </div>
     </nav>
-    <!-- Banner -->
-    <div class="banner-container">
-        <picture>
-            <!-- Para pantallas de 767 píxeles o menos -->
-            <source media="(max-width: 767px)" srcset="/src/images/optimizadas/banner-responsive.optimizado.svg">
-            <!-- Para pantallas de 768 píxeles o más -->
-            <source media="(min-width: 768px)" srcset="/src/images/optimizadas/emprendedores.optimizado.svg">
-            <!-- Imagen predeterminada si no se cumplen las condiciones anteriores -->
-            <img src="/src/images/optimizadas/emprendedores.optimizado.svg" alt="Imagen banner" class="img-fluid rounded">
-        </picture>
-        <div class="banner ptop-4">
-            <!-- Botón que abre el modal -->
-            <button type="button" class="banner btn btn-primary btn-lg btn-sm" data-bs-toggle="modal" data-bs-target="#formularioModal">Inscribirme Ahora</button>
+    <!-- Contenido Header -->
+    <div class="contenido container-fluid">
+        <div class="row mx-0">
+            <!-- Primera columna con background-image -->
+            <div class="col-lg-6 col-md-6 col-sm-12 bg-imagen-izquierda">
+                <div class="titulo-curso">
+                    <h1>Curso de Finanzas para Emprendedores</h1>
+                </div>
+            </div>
+            <!-- Segunda columna con background-image -->
+            <div class="col-lg-6 col-md-6 col-sm-12 bg-imagen-derecha">
+                <div class="contenido-img-derecha">
+                    <div class="encabezado-header">
+                        <h1 class="text-light"><span class="text-name">INSTRUCTORA </span> <br>
+                            EN FINANZAS</span></h1>
+                    </div>
+                    <div class="intro">
+                        <blockquote class="intro text-light mt-3">
+                            <p class="intro">¡Hola a todos! Soy Carolina Sada y estoy aquí para ayudarte a navegar por el emocionante viaje financiero del emprendimiento.</p>
+                            <p class="mediana-block">Las finanzas son la brújula que convierte tus ideas en realidades.</p>
+                            <p class="grande-block">Mi objetivo es proporcionarte las herramientas y conocimientos para tomar decisiones sólidas.</p>
+                            <p class="extra-grande-block">Desde la estrategia hasta la gestión de recursos, estoy comprometida a ser tu aliada en el camino hacia el éxito emprendedor.</p>
+                            <p class="intro">¡Vamos a construir juntos un futuro financiero sólido y exitoso para tu proyecto!.</p>
+                            <p class="intro">Por eso te invito a participar de la primera clase introductoria gratis y obtener un 35% de descuento en el precio final del curso. Inscribite apretando el botón</p>
+                        </blockquote>
+                    </div>
+                    <div class="call">
+                        <div class="banner">
+                        <!-- Botón que abre el modal -->
+                            <button type="button" class="banner btn btn-primary btn-lg btn-sm" data-bs-toggle="modal" data-bs-target="#formularioModal">Inscribirme Ahora</button>
+                        </div> 
+                   </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="formularioModal" tabindex="-1" aria-labelledby="formularioModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered modal-lg">
-            <!-- Puedes agregar el formulario directamente aquí o cargarlo mediante AJAX -->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -48,37 +71,32 @@
                                         <label for="nombre" class="form-label">Nombre:</label>
                                         <input type="text" class="form-control" id="nombre" name="nombre" autocomplete="given-name" required>
                                         <div class="feedback" id="nombreFeedback"></div>
-                                        
                                     </div>
                                     <div class="mb-3">
                                         <label for="apellido" class="form-label">Apellido:</label>
                                         <input type="text" class="form-control" id="apellido" name="apellido" autocomplete="family-name" required >
                                         <div class="feedback" id="apellidoFeedback"></div>
-                                    
                                     </div>
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Correo electrónico:</label>
                                         <input type="email" class="form-control" id="email" name="email" autocomplete="email" required >
                                         <div class="feedback" id="emailFeedback"></div>
-                                        
                                     </div>
                                     <div class="mb-3">
                                         <label for="telefono" class="form-label">Teléfono:</label>
                                         <input type="tel" class="form-control" id="telefono" name="telefono" autocomplete="tel" required >
                                         <div class="feedback" id="telefonoFeedback"></div>
-                                        
                                     </div>
                                     <div class="mb-3">
                                         <label for="compania" class="form-label">Compañía:</label>
                                         <input type="text" class="form-control" id="compania" name="compania" autocomplete="organization" required >
                                         <div class="feedback" id="companiaFeedback"></div>
-                                        
                                     </div>
                                     <div class="col-md-12">
                                         <input type="checkbox" class="form-check-input" id="terms" required >
                                         <label for="terms" class="form-check-label">Acepto los Terminos y condiciones</label>
                                         <div class="feedback" id="termsFeedback"></div>
-                                    </div>
+                                    </div>                                                                                                      
                                     <div class="modal-footer custom btn">
                                         <div class="custom-btn-container col-md-6">
                                             <!-- Botón para enviar el formulario -->
@@ -94,4 +112,4 @@
         </div>
     </div>
 </div>
-
+    

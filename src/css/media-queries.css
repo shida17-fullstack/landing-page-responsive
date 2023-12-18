@@ -1,110 +1,307 @@
 /* ------------------------------
    SECCIÓN 1: HEADER
 ------------------------------ */
-
-/* Estilos base para dispositivos más pequeños */
-@media (min-width: 320px) and (max-width: 576px) {
-    nav#navbar{
-        padding: 0!important;
+ /* Estilos base para dispositivos más pequeños */
+@media (max-width: 575.99px) {
+    .logo-container {
+        flex-direction: row!important; /* Cambia la dirección a fila para alinear horizontalmente */
+        justify-content: space-between!important; /* Distribuye el espacio entre elementos */
+        align-items: center!important; /* Centra verticalmente */
     }
 
-    img.logo {
-        max-height: 50px!important;
-        width: 50px!important;
+    .nav-name {
+        font-size: 35px!important; 
+        
     }
 
-    .banner {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    span.navbar-text {
+        font-size: 35px!important;
+        
+    }
+
+    a.navbar-brand {
+        left: 0!important; /* Ajusta la posición del logotipo */
+        transform: translateX(0)!important; /* Restaura la transformación */
     }
     
+    img.logo {
+        max-height: 75px !important;
+        width: 75px !important;
+    }
+
+    .contenido-img-derecha {
+        font-size: 15px !important;
+        margin-top: 0px !important;
+        padding: 3px !important;
+    }
+
+    blockquote.intro.text-light {
+        font-size: 15px!important;
+        padding-left: 8px!important;
+    }
+
+    .titulo-curso {
+        width: 100%!important;
+        
+    }
+
+    .titulo-curso h1 {
+        font-size: 2em !important;
+    }
+
+    .encabezado-header{
+        margin-top: 10px!important;
+        margin-bottom: 6px!important;
+    }
+
+    p.intro{
+        display: block!important;
+        margin-bottom: 0.35rem!important;
+    }
+
+    p.mediana-block {
+        display: none!important; /* Ocultar el párrafo en pantallas medianas y grandes */
+    }
+
+    p.grande-block{
+        display: none!important; /* Ocultar el párrafo en pantallas grandes */
+    } 
+
+    p.extra-grande-block{
+        display: none!important; /* Ocultar el párrafo en pantallas grandes */
+
+    } 
+    
+    .banner{
+        padding-top: 0px!important;
+    }
+
     button.banner {
-        margin-right: 0!important; 
+        width: auto!important;
+        font-size: 5vw!important;
+        max-width: 300px!important; 
     }
 
-
-    .modal-dialog {
-        width: 100%;
+    .icon-instructor a.icon {
+        width: 65px!important;
+        height: 65px!important;
+    }    
+}
+/* Media query para tamaños de pantalla entre 576px y 767px */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .logo-container {
+        flex-direction: row!important; /* Cambia la dirección a fila para alinear horizontalmente */
+        justify-content: space-between!important; /* Distribuye el espacio entre elementos */
+        align-items: center!important; /* Centra verticalmente */
     }
 
-    .modal-lg .modal-content {
-        width: 97%!important;
-        height: auto;
+    .nav-name {
+        font-size: 40px!important; /* Ajusta el tamaño del texto si es necesario */
         
     }
 
-    .modal-body {
-        max-height: 100vh;
+    span.navbar-text {
+        font-size: 40px!important;
         
     }
+
+    a.navbar-brand {
+        left: 0!important; /* Ajusta la posición del logotipo */
+        margin-left: 10px!important;
+        transform: translateX(0)!important; /* Restaura la transformación */
+    }
+    
+    img.logo {
+        max-height: 85px !important;
+        width: 85px !important;
+    }
+
+    .titulo-curso {
+        width: 100%!important;
+    }
+
+    .contenido-img-derecha {
+        font-size: 15px !important;
+        margin-top: 0px !important;
+        padding: 5px !important;
+    }
+    .encabezado-header{
+        margin-top: 12px!important;
+        margin-bottom: 0px!important;
+    }
+
+    blockquote.intro.text-light {
+        font-size: 15px!important;
+        padding-left: 3px!important;
+    }
+
+    p.intro, p.mediana-block {
+        display: block!important; /* Ocultar el párrafo en pantallas medianas y grandes */
+        padding-right: 10px!important;
+        margin-bottom: 0.5rem;
+    }
+
+    p.grande-block, p.extra-grande-block{
+        display: none!important; /* Ocultar el párrafo en pantallas grandes */
+
+    } 
+
+    button.banner {
+        width: auto!important;
+        font-size: 6vw!important;
+        max-width: 350px!important; /* Ajusta el ancho máximo según sea necesario */
+    }
+
+    .icon-instructor a.icon {
+        width: 85px!important;
+        height: 85px!important;
+    }   
+
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
-    nav#navbar{
-        padding:0!important;
-    
+
+/* Dos columnas a partir de 768px */
+@media (min-width: 768px) and (max-width: 992px) {
+    nav#navbar {
+        padding: 0 !important;
     }
 
     img.logo {
-        max-height:75px!important;
-        width:75px!important;
+        max-height: 75px !important;
+        width: 75px !important;
     }
 
-    .banner{
-        height: 40px!important;
-        padding-top:0.6rem!important;
+    span.navbar-text {
+        font-size: 35px !important;
+    }
+
+    a.navbar-brand {
+        left: 0!important; /* Ajusta la posición del logotipo */
+        margin-left: 10px!important;
+        transform: translateX(0)!important; /* Restaura la transformación */
+    }
+
+    .titulo-curso {
+        width: 50% !important;
+    }
+
+    .titulo-curso h1 {
+        font-size: 2em !important;
+    }
+
+    .contenido-img-derecha {
+        font-size: 12px !important;
+        margin-top: 0px !important;
+        padding: 3px !important;
+    }
+
+    .encabezado-header{
+        margin-top: 5px!important;
+        padding-right: 75px!important;
+        margin-bottom: 0px!important;
+    }
+
+    blockquote.intro.text-light {
+        font-size: 12px!important;
+        padding-left: 10px!important;
+    }
+
+    p.intro{
+        display: block!important;
+        margin-bottom: 0.1rem!important;
         
-        
+    }
+
+    p.mediana-block {
+        display: block!important; /* Muestra el párrafo en pantallas medianas y grandes */
+        margin-bottom: 0.1rem!important;
+    }
+
+    p.grande-block {
+        display: block!important; /* Oculta el párrafo en pantallas grandes */
+        margin-bottom: 0.1rem!important;
+    }
+
+    p.extra-grande-block{
+        display: none!important;
+    }
+
+    button.banner {
+        width: auto!important;
+        font-size: 20px !important;
+        padding-right: 10px!important;
+        margin-bottom: 0.2rem !important;
+    }
+}
+
+/* Media query para tamaños de pantalla entre 993px y 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .contenido-img-derecha {
+        font-size: 12px !important;
+        padding: 12px!important;
+        margin-top: 35px!important;
+    }  
+
+    .encabezado-header{
+        padding-left: 5px!important;
+        margin-bottom: 0px!important;
+    }
+
+    blockquote.intro.text-light {
+        font-size: 12px!important;
+        padding-right: 8px!important;
+        padding-left: 6px!important;
+        margin-top: 1px!important;
+    } 
+
+    p.intro{
+        display: block;
+        margin-bottom: 0.09rem!important;
+    }
+
+    p.mediana-block {
+        display: block;
+        margin-bottom: 0.09rem!important;
+    }
+
+    p.grande-block {
+        display: block;
+        margin-bottom: 0.1rem!important;
+    }
+
+    p.extra-grande-block{
+        display: block;
+        margin-bottom: 0.09rem!important;
     }
 
     button.banner{
-        font-size:20px!important;
-        margin-bottom: 0.2rem!important;
+        width: auto!important;
+        max-width: 360px!important;
+        font-size: 2vw!important;
     }
-
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-    nav#navbar{
+}  
+/* Media query para pantallas más grandes */
+@media (min-width: 1201px) {
+    .contenido-img-derecha {
+        font-size: 13px !important;
         padding: 5px!important;
+        margin-top: 35px!important;
+    } 
+
+    blockquote.intro.text-light {
+        font-size: 13px!important;
+        padding-right: 5px!important;
+        padding-left: 6px!important;
+        margin-top: 2px!important;
+    } 
+
+    p.intro, p.mediana-block, p.grande-block,p.extra-gramde-block {
+        display: block!important;
+        margin-bottom: 0.4rem!important;
         
     }
-
-    img.logo {
-        max-height: 90px!important;
-        width: 90px!important;
-    }
-
-    .banner{
-        height: 40px!important;
-        padding-top:0.6rem!important;
-        
-    }
-
-    button.banner{
-        font-size:20px!important;
-        margin-bottom: 0.2rem!important;
-    }
-
-   
-}
-
-
-@media (min-width: 992px) and (max-width: 1200px) {
-   .bg {
-        background-image: url('/src/images/optimizadas/form-responsive.optimizado.svg')!important;
     
-    }
-    
-}
 
-@media (min-width: 1201px){
-    .bg {
-         background-image: url('/src/images/optimizadas/form-descuento.optimizado.svg')!important;
-     
-     }
-     
 }
 /* ------------------------------
    SECCIÓN 2: BENEFICIOS 
@@ -112,34 +309,33 @@
 @media (min-width: 320px) and (max-width: 768px) {
     h2.section-title{
         padding-top: 30px!important;
-        
     } 
 
     .beneficios-contenido {
         margin-bottom: 85px!important;
-       
     } 
-
 
     .icon-beneficio {
         top: -30%!important;
         left: 50%!important;
         margin-bottom: 20px;
         transform: translate(-50%, -50%)!important;
-       
     }
 
     .beneficios-especial h5, .beneficios-asesoria h5, .beneficios-horario h5, .beneficios-certificado h5{
         padding-top: 10px!important;
     }
-}
+} 
 /* ------------------------------
    SECCIÓN 3: TEMARIO 
 ------------------------------ */
 @media (min-width: 320px) and (max-width: 992px) {
     .programa.temario-imagen {
         background-image: none!important;
-        
+    }
+
+    h2.section-title-temario{
+        color: black!important;
     }
 
     .programa.temario-container{
@@ -156,7 +352,6 @@
         left: -17px!important;
     }
 }
-
 
 /* ------------------------------
    SECCIÓN 4: TESTIMONIAL

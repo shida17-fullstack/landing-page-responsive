@@ -7,25 +7,53 @@
     padding-left: 0;
 }
 
-.container.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+span.navbar-text {
+    color: white; /* Añade color al texto */
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
 }
 
+.logo-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+.nav-name {
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.divider-span {
+    height: 7px;
+    width: 90px;
+    background-color: #fff;
+}
+
+a.navbar-brand {
+    position: relative;
+    display: inline-block;
+    padding-top: 0px;
+    left: -30%;
+    transform: translateX(-50%);
+}  
+
 img.logo {
-    max-height: 100px;
+    max-height: 90px;
     height: auto;
-    width: 100px;
-    transition: max-height 0.3s; /* Agrega transición al cambio de tamaño del logo */
+    width: auto; /* Ancho automático para mantener la proporción original */
+    transition: max-height 0.3s;
 }
 
 nav#navbar {
     transition: background-color 0.3s, padding 0.3s; /* Añade transiciones */
     background-color: rgba(0, 0, 0, 0)!important;/* Transparente */
-    padding: 15px 0;
+    padding: 0px;
 }
-
 
 nav#navbar.scrolled {
     background-color: rgba(48, 158, 156, 0.80) !important;
@@ -38,37 +66,82 @@ nav#navbar.img.logo.scrolled  {
     transition: max-height 0.3s; /* Agrega transición al cambio de tamaño del logo al hacer scroll */
 }
 
- 
-/* Banner*/
-.banner-container {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;  /* Alinea el contenido al final y a la derecha */
-    
+
+/* Columnas con Imagenes*/
+
+/* Columna con Imagen izquierda y Derecho */
+.bg-imagen-izquierda {
+    background-image: url('/src/images/optimizadas/carolina_optimizado.svg');
 }
 
-
-.banner-container picture img {
-    height: auto;
-    width: 100vw!important; /* Ancho igual al ancho del contenedor */
-    margin: 0 auto; /* Centrar la imagen */
-    overflow: hidden!important;
+.bg-imagen-derecha {
+    background-image: url('/src/images/optimizadas/fondo_azul_optimizado.svg');
 }
 
+.bg-imagen-izquierda, .bg-imagen-derecha{
+    background-size: 100% 100%;
+    background-position: top;
+    height: 100vh; /* Ajusta la altura a 100% del viewport (visible screen)*/
+}
 
-.banner {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%; 
-    height: 50px;
+.titulo-curso {
     text-align: center;
-    color: #fff; /* Color de texto boton */
-    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    bottom: 20px;
+    left: 0; 
+    right: 0; 
+    background-color: rgba(48, 158, 156, 0.80);
+    padding: 12px;
+    margin: 0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.encabezado-header{
+    text-align: center;
+    justify-content: center;
+}
+
+.encabezado-header h1.text-light {
+    font-weight: 800; 
+}
+
+.titulo-curso h1 {
+    color: white; 
+    margin-bottom: 10px; 
+}
+
+span.text-name{
+    color: rgb(255, 215, 0) !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenido-img-derecha{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 100px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); 
+}
+    
+blockquote.intro.text-light {
+    font-style: italic; 
+    font-size: 20px;
+    border-left: 4px solid rgb(255, 215, 0); /* Color del borde izquierdo */
+    padding-left: 8px; /* Espacio a la izquierda del texto */
+    padding-top: 15px;
+    color: #fff; /* Color del texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p.intro, p.mediana-block, p.grande-block,p.extra-gramde-block {
+    margin-bottom: 0.9rem;
+}
+
+/* Button Banner*/
 button.banner {
     width: 100%;  /* Ancho relativo al contenedor padre */
     max-width: 350px; /* Ancho máximo del botón */
@@ -80,22 +153,21 @@ button.banner {
     background-color: rgb(255, 215, 0) !important;
     letter-spacing: 5px; /* Espaciado entre letras */
     margin-right:  1.5rem; /* Añade un margen para separar el botón del borde del banner */
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
+    margin-top: 20px;
     transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 button.banner:hover {
     transform: translateY(-2px);
 }
 
-
 /* Modal*/
 .bg {
-   
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 
@@ -103,7 +175,6 @@ button.banner:hover {
 .modal-body {
     overflow-y: auto; /* Permite el scroll si es necesario */
 }
-
 
 .contenido-modal {
     text-align: center;

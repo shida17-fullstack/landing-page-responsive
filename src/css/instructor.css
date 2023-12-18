@@ -1,23 +1,69 @@
-section#instructor{
-    background-color: rgba(48, 158, 156, 0.80)!important;
+ /* Estilos para la columna de la imagen */
+.custom-column {
+    text-align: center;
+    position: relative;
 }
 
 .img-instructor {
     position: relative;
-    display: inline-block; /* Para que el contenedor abrace la imagen y el ícono */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
+.img-instructor img {
+    width: 100%;
+    height: auto;
+    max-height: 650px;
+    box-shadow: 13px 13px 0px 0px #ffb609;
+}
+
+/* Estilos para el encabezado instructor  */
+.encabezado-instructor {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.encabezado-instructor h1 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el ícono en la columna de la imagen */
 .icon-instructor {
     position: absolute;
-    bottom: 10px;
+    top: 52%;
     left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(1, 4, 64, 0.8) !important; 
-    color: #fff;
-    border-radius: 100px;
-    padding: 5px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
-.icon-instructor i {
-    font-size: 40px;
+.icon-instructor a.icon {
+    background: #fff;
+    color: #000;
+    width: 95px;
+    height: 95px;
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.5s, color 0.5s; /* Agregamos transición al fondo y color del ícono */
 }
+
+.icon-instructor a.icon:hover {
+    background: #ffb609; /* Cambia el fondo al pasar el mouse */
+    color: #fff; /* Cambia el color del ícono al pasar el mouse */
+}
+
+
+
+

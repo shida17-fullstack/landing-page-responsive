@@ -5,41 +5,41 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 ## Contenido - Carpetas y Archivos
 
 - **`landing-page/`** Carpeta principal que contiene todo el proyecto.
-  - **`index.html`:** Archivo principal que contiene la estructura de la landing page.
-  - **`css/`:** Carpeta que almacena los estilos CSS del proyecto.
+  - **`index.html`:** Archivo principal que contiene la estructura de la landing page. **MODIFICADO**. Se cambió el orden de las secciones header e instructor. Se agregó nuevas fuentes Roboto Condensed y Satisfy:
+  - **`css/`:** Carpeta que almacena los estilos CSS del proyecto.**MODIFICADO**. Se modificaron los estilos de los parciales `header.css` y `instructor.css`, así como las media queries.
       - `estilos.css`: Archivo principal de estilos CSS.
-      - `footer.css`: Archivo de estilos CSS de parcial footer.html.
-      - `header.css`: Archivo de estilos CSS de parcial header.html.
-      - `instructor.css`: Archivo de estilos CSS de parcial instructor.html. 
-      - `temario.css`: Archivo de estilos CSS de parcial temario.html.
-      - `testimonios.css`: Archivo de estilos CSS de parcial testimonios.html.
-      - `beneficios.css`: Archivo de estilos CSS de parcial testimonios.html.
+      - `footer.css`: Archivo de estilos CSS del parcial footer.html.
+      - `header.css`: Archivo de estilos CSS del parcial header.html. **MODIFICADO**. 
+      - `instructor.css`: Archivo de estilos CSS del parcial instructor.html. **MODIFICADO**.
+      - `temario.css`: Archivo de estilos CSS del parcial temario.html.
+      - `testimonios.css`: Archivo de estilos CSS del parcial testimonios.html.
+      - `beneficios.css`: Archivo de estilos CSS del parcial testimonios.html.
       - `bootstrap.min.css`: Archivo de estilos CSS de Bootstrap 5.
-      - `fontawesome.min.css`: Archivo de estilos de Paquete de Fuentes y Estilos de Fontawesome.
-      - `media-queries.css`: Archivo de estilos CSS Responsive Design.
+      - `fontawesome.min.css`: Archivo de estilos del paquete de fuentes y estilos de Fontawesome.
+      - `media-queries.css`: Archivo de estilos CSS para Responsive Design. Modificado
   - **`fonts/`:** Almacena las fuentes utilizadas en el proyecto.
-      - **`webfonts/`:** Carpeta con las fuentes web. Fontawesome.
+      - **`webfonts/`:** Carpeta con las fuentes web de Fontawesome.  
   - **`js/`:** Carpeta que almacena los archivos JavaScript.
       - `bootstrap.bundle.min.js`: Archivo Javascript Bootstrap 5.
-      - `cargarImg.js`: Archivo Javascript Carga Imagenes y Circulos de colores de Carousel.
-      - `cargarParciales.js`: Archivo Javascript Carga de Parciales HTML.
-      - `formularioModal.js`: Archivo Javascript Formulario Modal.
-      - `navbarScrolled.js`: Archivo Javascript Navbar efecto Scroll Background-color. 
-      - `validacionFormulario.js`: Archivo Javascript Validacion campos Formulario Modal.
+      - `cargarImg.js`: Archivo Javascript para cargar imágenes y círculos de colores de Carousel.
+      - `cargarParciales.js`: Archivo Javascript para cargar parciales HTML.
+      - `formularioModal.js`: Archivo Javascript del formulario Modal.
+      - `navbarScrolled.js`: Archivo Javascript para el efecto de Scroll en el Navbar con cambio de Background-color. 
+      - `validacionFormulario.js`: Archivo Javascript para la validación de campos en el formulario Modal.
   - **`images/`:** Carpeta para imágenes y recursos multimedia.
-      - **`capturas/`:** Carpeta con captura de imagen SVG de Landing Page Full Screen.
-      - **`muestras/`:** Carpeta con imagenes de muestras y paleta de colores propuesta y usada en Landing Page. Extension SVG optimizadas SVGO.
-      - **`optimizadas/`:** Carpeta con imagenes optimizadas con SVGO usadas en la Landing Page.
-      - **`testing/`:** Carpeta con capturas de imagenes de Testeo en Mobile-
+      - **`capturas/`:** Carpeta con capturas de imágenes SVG de la Landing Page a pantalla completa. **MODIFICADO**. Se agregó  capturaLanding_modificada.optimizado.svg.
+      - **`muestras/`:** Carpeta con imágenes de muestras y paleta de colores propuesta y usada en la Landing Page. Extensiones SVG optimizadas con SVGO. **MODIFICADO**. Se agregó paletaColores_modificada.optimizado.svg
+      - **`optimizadas/`:** Carpeta con imágenes optimizadas con SVGO usadas en la Landing Page. **MODIFICADO**. Se agregaron carolina_optimizado.svg y fondo_azul_optimizado.svg
+      - **`testing/`:** Carpeta con capturas de imágenes de Testeo en dispositivos móviles. **MODIFICADO**. Se agregaron captura_375.optimizado.svg, captura_412_2.optimizado.svg, captura_768.optimizado.svg y captura_1024.optimizado.svg
   - **`parciales/`:** Almacena archivos HTML parciales reutilizables.
-    - `header.html`: Encabezado de la página.
+    - `header.html`: Encabezado de la página. **MODIFICADO**
     - `footer.html`: Pie de página.
-    - `beneficios.html`: Seccion Beneficios HTML.
-    - `instructor.html`: Seccion Instructor HTML.
-    - `temario.html`: Seccion Temario HTML.
-    - `testimonios.html`: Seccion Testimonios HTML.
+    - `beneficios.html`: Sección Beneficios HTML.
+    - `instructor.html`: Sección Instructor HTML. **MODIFICADO**
+    - `temario.html`: Sección Temario HTML.
+    - `testimonios.html`: Sección Testimonios HTML.
   - **`LICENSE.md`:** Archivo que especifica los términos de la licencia del proyecto.
-  - **`README.md`:** Este archivo que proporciona información sobre el proyecto.
+  - **`README.md`:** Este archivo proporciona información sobre el proyecto.**MODIFICADO**
 
 ## Estructura del Proyecto
 
@@ -68,6 +68,7 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 |   |   |   |   |-- paleta.svg
 |   |   |   |   |-- paleta.svg
 |   |   |   |   |-- paleta.svg
+|   |   |   |   |-- paleta.svg
 |   |   |   |-- optimizadas
 |   |   |   |   |-- optimizado.svg
 |   |   |   |   |-- optimizado.svg
@@ -80,8 +81,11 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 |   |   |   |   |-- optimizado.svg
 |   |   |   |   |-- optimizado.svg
 |   |   |   |   |-- optimizado.svg
+|   |   |   |   |-- optimizado.svg
+|   |   |   |   |-- optimizado.svg
 |   |   |   |-- capturas
 |   |   |   |   |-- full_screen-landing.optimizado.svg
+|   |   |   |   |-- capturaLanding_modificada.optimizado.svg
 |   |   |   |-- testing
 |   |   |   |   |-- 320.optimizado.svg
 |   |   |   |   |-- 375.optimizado.svg
@@ -98,6 +102,10 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 |   |   |   |   |-- 1024.optimizado.svg
 |   |   |   |   |-- 1201.optimizado.svg
 |   |   |   |   |-- 1280.optimizado.svg
+|   |   |   |   |-- captura_375.optimizado.svg
+|   |   |   |   |-- captura_412_2.optimizado.svg
+|   |   |   |   |-- captura_768.optimizado.svg
+|   |   |   |   |-- captura_1024.optimizado.svg
 |   |   |-- js
 |   |   |   |-- bootstrap.bundle.min.js
 |   |   |   |-- cargarImg.js
@@ -126,43 +134,43 @@ En este proyecto, se han utilizado las siguientes fuentes:
 - **Font Awesome:** Conjunto de iconos vectoriales y logotipos, ampliamente utilizado para agregar iconografía a proyectos web.
   - Sitio web: [Font Awesome](https://fontawesome.com/)
 
-- **Roboto:** Fuente sans-serif diseñada por Google. Se ha utilizado para la tipografía en este proyecto.
-  - Sitio web: [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
+- **Roboto Condensed:** Fuente sans-serif diseñada por Google. Se ha utilizado para la tipografía en este proyecto.
+  - Sitio web: [Google Fonts - Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
+
+- **Satisfy:** Fuente script diseñada por Sideshow. Se ha utilizado para la tipografía en este proyecto.
+  - Sitio web: [Google Fonts - Satisfy](https://fonts.google.com/specimen/Satisfy)
 
 
-## Capturas de Pantalla
+
+## Capturas de Pantalla **MODIFICADO**
 
 ### Capturas Landing Page Full Screen
-1. ![Captura 1](/src/images/capturas/full_screen-landing.optimizado.svg)
+1. ![Captura 1](/src/images/capturas/capturaLanding_modificada.optimizado.svg)
 
 ### Capturas Desktop y Mobile
 
 | N° | Descripción | Enlace |
 
-| 1 | 320px Full Pantalla Nokia Lumia+520 | ![Enlace](/src/images/testing/320_nokia_lumia+520..optimizado.svg) |
-| 2 | 375px Muestra Formulario Modal en ese ancho IPhone Expensive Portrait | ![Enlace](/src/images/testing/375_form-375.optimizado.svg) |
-| 3 | 375px IPhone Expensive Portrait | ![Enlace](/src/images/testing/375-responsinator.optimizado.svg) |
-| 4 | 640px Full Pantalla Microsoft Lumia 550 | ![Enlace](/src/images/testing/640_microsoft_lumia_550.optimizado.svg) |
-| 5 | 684px Iphone Expensive Landscape | ![Enlace](/src/images/testing/684-responsinator..optimizado.svg) |
-| 6 | 734px Iphone Expensive Landscape | ![Enlace](/src/images/testing/734-responsinator.optimizado.svg) |
-| 7 | 992px Full Pantalla con Formulrio Modal | ![Enlace](/src/images/testing/992_full-form.optimizado.svg) |
-| 8 | 1024 x 768px Desktop Laptop | ![Enlace](/src/images/testing/1024_desktop_laptop_1024x768.optimizado.svg) |
-| 9 | 1024 x 1366px Laptop N° 1 | ![Enlace](/src/images/testing/1024_laptop1_1024x1366.optimizado.svg) |
-| 10 | 1024 x 1366px Laptop N° 2 | ![Enlace](/src/images/testing/1024_laptop2_1024x1366..optimizado.svg) |
-| 11 | 1024 x 1366px Laptop N° 3 | ![Enlace](/src/images/testing/1024_laptop3_1024x1366.optimizado.svg) |
-| 12 | 1024 x 1366px Laptop N° 4 | ![Enlace](/src/images/testing/1024_laptop4_1024x1366.optimizado.svg) |
-| 13 | 1024 x 1366px Laptop N° 5 | ![Enlace](/src/images/testing/1024_laptop5_1024x1366..optimizado.svg) |
-| 14 | 1201px Formulario Modal en ese ancho de pantalla | ![Enlace](/src/images/testing/1201_form-1201.optimizado.svg) |
-| 15 | 1280x800px Desktop Laptop | ![Enlace](/src/images/testing/1280_desktop_laptop_1280x800.optimizado.svg) |
+| 1 | 375px Iphone Expensive Portrait| ![Enlace](/src/images/testing/captura_375.optimizado.svg) |
+| 2 | 412px Android Pixel 2 Portrait| ![Enlace](/src/images/testing/captura_412_2.optimizado.svg) |
+| 3 | 768px Ipad Portrait| ![Enlace](/src/images/testing/captura_768.optimizado.svg) |
+| 4 | 1024px Ipad Landscape| ![Enlace](/src/images/testing/captura_1024.optimizado.svg) |
+
+**Nota:** Estas capturas de pantalla pertenecen a la rama `cambios-header-instructor`. Para obtener más detalles sobre el resto de las imágenes que se muestran en este proyecto y en la estructura de la landing, consulta la rama principal `main`.(https://github.com/shida17-fullstack/landing-page-responsive.git)
 
 ### Herramientas Test Mobile
 - **Responsinator:** Utilizado para simular la visualización en varios dispositivos móviles.
 - **Responsive Test Tools:** Herramienta adicional para simular y evaluar la capacidad de respuesta del diseño en diferentes tamaños de pantalla.
 - **Dev Tools Google Chrome:** Utilizado para inspeccionar y ajustar la apariencia en el navegador Chrome.
 
+
 ## Licencia
 
 Este proyecto está bajo la Licencia (Versión Limitada) - ver el archivo LICENSE.md para más detalles.
+
+## Última Modificación
+
+Este README fue modificado por última vez el 18/12/23 por shyda17-fullstack.
 
 ## Caracteristicas - Información Adicional
 La Landing Page utiliza Bootstrap 5, HTML5, Javascript y SVGO para facilitar el diseño responsive.
