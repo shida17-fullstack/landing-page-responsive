@@ -43,6 +43,8 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 
 ## Estructura del Proyecto
 
+```markdown
+
 |-- landing-page
 |   |-- src
 |   |   |-- css
@@ -124,6 +126,7 @@ Este proyecto de Landing Page está diseñado para la venta de un Curso Digital 
 |-- LICENSE.md
 |-- README.md
 
+```
 **Nota sobre nombres de imágenes:**
 Por cuestiones de brevedad, algunos nombres de imágenes en el acapite Estructura del Proyecto pueden estar incompletos. Se recomienda dirigirse a la carpeta [images](/src/images/) o ver item ## Capturas de Pantalla para obtener detalles específicos sobre cada imagen.
 
